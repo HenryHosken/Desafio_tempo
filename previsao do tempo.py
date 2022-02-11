@@ -17,7 +17,6 @@ while True:
     elif dia2 != "1" and dia1 != "2":
         print('Tente 1 ou 2 por favor')
     
-
     dia3 = input ('Na terça choveu ? ')
     if dia3 == "1":
         chance_de_chuva= chance_de_chuva + 16.66
@@ -26,7 +25,6 @@ while True:
     elif dia3 != "1" and dia1 != "2":
         print('Tente 1 ou 2 por favor')
     
-
     dia4 = input ('Na quarta choveu ? ')
     if dia4 == "1":
         chance_de_chuva= chance_de_chuva + 16.66
@@ -35,7 +33,6 @@ while True:
     elif dia4 != "1" and dia1 != "2":
         print('Tente 1 ou 2 por favor')
     
-
     dia5 = input ('Na quinta choveu ? ')
     if dia5 == "1":
         chance_de_chuva= chance_de_chuva + 16.66
@@ -44,7 +41,6 @@ while True:
     elif dia5 != "1" and dia1 != "2":
         print('Tente 1 ou 2 por favor')
   
-
     dia6 = input ('Na sexta choveu ? ')
     if dia6 == "1":
         chance_de_chuva= chance_de_chuva + 16.66
@@ -62,5 +58,4 @@ while True:
         print('Tente 1 ou 2 por favor')    
     
     print(f'A probabilidade de chover sábado é de {chance_de_chuva}% ')    
-    break
-  
+    break  
